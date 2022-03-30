@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:profile/profile';
+import 'package:profile/sabila';
 
 void main() => runApp(const MyApp());
 
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'TugasProfil',
-      home: ProfileD(),
+      home: SabilaD(),
     );
   }
 }
